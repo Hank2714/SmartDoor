@@ -74,8 +74,9 @@ pip install -r requirements.txt
 ```
 MYSQL_HOST=localhost
 MYSQL_USER=root
+MYSQL_PORT=3306
 MYSQL_PASS=yourpassword (thay đổi password theo ý bạn)
-MYSQL_DB=smartdoor
+MYSQL_DB=smartdoor_db
 
 SMARTDOOR_VAULT_KEY=your_fernet_key_here (thay đổi fernet_key theo ý bạn)
 SERIAL_PORT=AUTO
@@ -90,7 +91,7 @@ print(Fernet.generate_key().decode())
 4️⃣ Khởi tạo Database MySQL
 
 ```
-CREATE DATABASE smartdoor;
+CREATE DATABASE smartdoor_db;
 ```
 
 5️⃣ Chạy ứng dụng
