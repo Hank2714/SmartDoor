@@ -78,7 +78,7 @@ MYSQL_PASS=yourpassword (thay đổi password theo ý bạn)
 MYSQL_DB=smartdoor
 
 SMARTDOOR_VAULT_KEY=your_fernet_key_here (thay đổi fernet_key theo ý bạn)
-SERIAL_PORT=COM5
+SERIAL_PORT=AUTO
 SERIAL_BAUD=115200
 ```
 Tạo Fernet key:
