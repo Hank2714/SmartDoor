@@ -61,7 +61,7 @@ Hệ thống bao gồm:
 
 1️⃣ Clone repository
 ```
-git clone https://github.com/<username>/SmartDoor.git
+git clone https://github.com/Hank2714/SmartDoor/
 cd SmartDoor
 ```
 
