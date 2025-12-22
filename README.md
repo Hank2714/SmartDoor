@@ -58,6 +58,7 @@ Hệ thống bao gồm:
         ├── manage.py
     ├── .env
     ├── app.py
+    └── create_fernet_key.py
     └── requirements.txt
 ```
 
