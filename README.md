@@ -95,7 +95,7 @@ print(Fernet.generate_key().decode())
 4️⃣ Khởi tạo Database MySQL
 
 ```
-CREATE DATABASE smartdoor_db;
+CREATE DATABASE {your_database_name}
 ```
 
 5️⃣ Chạy ứng dụng
