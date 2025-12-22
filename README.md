@@ -87,11 +87,11 @@ SMARTDOOR_VAULT_KEY=your_fernet_key_here (thay đổi fernet_key theo ý bạn)
 SERIAL_PORT=AUTO
 SERIAL_BAUD=115200
 ```
-Tạo Fernet key:
+Tạo Fernet key bằng cách chạy 
 ```
-from cryptography.fernet import Fernet
-print(Fernet.generate_key().decode())
+python create_fernet_key.py
 ```
+Copy fernet key được tạo ra trong terminal rồi thay vào file .env
 
 4️⃣ Khởi tạo Database MySQL
 
