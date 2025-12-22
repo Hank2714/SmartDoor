@@ -93,9 +93,9 @@ python create_fernet_key.py
 ```
 Copy fernet key được tạo ra trong terminal rồi thay vào file .env
 
-4️⃣ Khởi tạo Database MySQL
-
+4️⃣ Khởi tạo Database MySQL và kết nối với SQL
 ```
+#Ở đây tôi dùng SQLTools để kết nối, chạy file .sql trong thư mục db
 CREATE DATABASE {your_database_name}
 ```
 
